@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "salve-anjos",
+    "name": "Salve Anjos",
     "slug": "salve-anjos",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,10 +18,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.alldevs.salveanjos"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "78ba1976-1d3a-42a5-950c-69d3be3aaa8c"
+      }
     }
   }
 }
